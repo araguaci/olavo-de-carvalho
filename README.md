@@ -104,7 +104,7 @@ Em vias de publicação pela Vide Editorial:
 
 <details>
   <summary><b>Fontes </b></summary>
-  - [olavodecarvalho.org](https://olavodecarvalho.org/obras-publicadas/)
-  - [quem-e-olavo-de-carvalho](https://www.brasilparalelo.com.br/artigos/quem-e-olavo-de-carvalho?gclid=EAIaIQobChMI9PW13t3D9gIVCw2RCh1wSQHUEAMYASAAEgLuz_D_BwE)
+  - <a href="https://olavodecarvalho.org/obras-publicadas/">olavodecarvalho.org</a>
+  - <a href="https://www.brasilparalelo.com.br/artigos/quem-e-olavo-de-carvalho?gclid=EAIaIQobChMI9PW13t3D9gIVCw2RCh1wSQHUEAMYASAAEgLuz_D_BwE">quem-e-olavo-de-carvalho</a>
 
 </details>
