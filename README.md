@@ -1,21 +1,20 @@
-# Olavo Luiz Pimentel de Carvalho 
-
 ## Quem é Olavo de Carvalho?
 
-Olavo Luiz Pimentel de Carvalho é professor, filósofo, escritor, ensaísta e jornalista brasileiro. Autor profícuo, escreveu mais de 40 livros, mais de 44 cursos, dezenas de milhares de páginas em apostilas e artigos, protagonizou um filme e, durante 14 anos, ministrou semanalmente seu Curso Online de Filosofia, o COF - contabilizando mais de 570 aulas.
+**Olavo Luiz Pimentel de Carvalho** é **professor**, **filósofo**, **escritor**, **ensaísta** e **jornalista brasileiro**. Autor profícuo, **escreveu mais de 40 livros, mais de 44 cursos, dezenas de milhares de páginas em apostilas e artigos**, protagonizou um filme e, durante 14 anos, ministrou semanalmente seu **Curso Online de Filosofia, o COF - contabilizando mais de 570 aulas**.
 
 Nasceu em Campinas, São Paulo, a 29 de abril de 1947. Aos 74 anos, faleceu no dia 24 de janeiro de 2022, na região de Richmond, na Virgínia, deixando sua esposa, Roxane de Carvalho, oito filhos e 18 netos.
 
 Suas ideias ganharam protagonismo no debate público, pautando assuntos como conservadorismo, religião, filosofia e política. Segundo ele mesmo, seus cursos são os únicos realmente formadores de profissionais de alto nível no país, superiores às graduações de humanas nas universidades.
 
-## Formação e estudos independentes
-
+<details>
+  <summary><b>Formação e estudos independentes</b></summary>
 Olavo de Carvalho teve sua formação filosófica a partir de seus estudos como autodidata. Ainda jovem, buscou o conhecimento por conta própria. Não se viu dependente do conteúdo escolar passado pelos professores regulares das instituições.
 
 Aprendeu sozinho na companhia dos livros e também por meio de conversas com outros intelectuais brasileiros com quem teve contato.
+</details>
 
-
-## Infância e adolescência de Olavo de Carvalho
+<details>
+  <summary><b>Infância e adolescência de Olavo de Carvalho</b></summary>
 
 Aos dois anos de idade, saiu de Campinas. Na cidade de São Paulo, morou no bairro do Glicério, perto da Praça da Sé.
 
@@ -33,7 +32,10 @@ Autonomamente, formou seu gosto literário por meio da grande literatura mundial
 
 Como queria estudar assuntos mais profundos, deixou a escola, onde os professores, segundo afirmou, sequer acompanhavam seu nível. Abandonou o colégio na “4ª série do ginásio”, equivalente à oitava série do ensino fundamental.
 
-## Primeiros trabalhos jornalísticos
+</details>
+
+<details>
+  <summary><b>Primeiros trabalhos jornalísticos</b></summary>
 
 
 Olavo de Carvalho começou a sua carreira como jornalista na Empresa Folha da Manhã S/A aos 17 anos. Posteriormente, conseguiu o melhor emprego de jornalismo em São Paulo na época, no Jornal da Tarde.
@@ -53,9 +55,10 @@ Ser freelancer na época era algo tão raro, que ele foi entrevistado para expli
 Durante a década de 80, trabalhou para várias revistas, como Nova, Quatro Rodas, Cláudia, etc. Eram revistas de administração pública e privada, de economia, política e temas variados. Em entrevistas, Olavo relata que aceitava o trabalho que aparecia. Foi, inclusive, freelancer da Abril e O Globo.
 
 
+</details>
 
-
-## Obras Publicadas 
+<details>
+  <summary><b>Obras Publicadas </b></summary>
 
 *   **_Símbolos e mitos no filme “O silêncio dos inocentes”_**. Rio de Janeiro: Instituto de Artes Liberais. 1992.
 *   **_Os gêneros literários: seus fundamentos metafísicos_**. 1993.
@@ -96,8 +99,12 @@ Em vias de publicação pela Vide Editorial:
 *   **_Introdução à filosofia de Louis Lavelle_**
 *   **_A consciência de imortalidade_**
 
+</details>
 
-## Fontes
 
+<details>
+  <summary><b>Fontes </b></summary>
   - [olavodecarvalho.org](https://olavodecarvalho.org/obras-publicadas/)
   - [quem-e-olavo-de-carvalho](https://www.brasilparalelo.com.br/artigos/quem-e-olavo-de-carvalho?gclid=EAIaIQobChMI9PW13t3D9gIVCw2RCh1wSQHUEAMYASAAEgLuz_D_BwE)
+
+</details>
