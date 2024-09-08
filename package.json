@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^3.1.1",
     "@types/node": "^18.16.3",
     "astro": "^2.10.15",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.20",
     "daisyui": "^2.51.6",
     "less": "^4.2.0",
     "prettier": "^2.8.8",
