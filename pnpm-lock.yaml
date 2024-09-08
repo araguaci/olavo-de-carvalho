@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/image':
         specifier: ^0.18.0
-        version: 0.18.0(astro@2.10.15)(sharp@0.32.6)
+        version: 0.18.0(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))(sharp@0.32.6)
       '@astrojs/markdown-component':
         specifier: ^1.0.5
         version: 1.0.5
@@ -35,19 +35,19 @@ importers:
     devDependencies:
       '@astrojs/tailwind':
         specifier: ^3.1.1
-        version: 3.1.3(astro@2.10.15)(tailwindcss@3.4.2)
+        version: 3.1.3(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))(tailwindcss@3.4.2)
       '@types/node':
-        specifier: ^18.16.3
-        version: 18.19.26
+        specifier: ^22.5.4
+        version: 22.5.4
       astro:
         specifier: ^2.10.15
-        version: 2.10.15(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
+        version: 2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
       autoprefixer:
         specifier: ^10.4.16
         version: 10.4.19(postcss@8.4.38)
       daisyui:
         specifier: ^2.51.6
-        version: 2.52.0(autoprefixer@10.4.19)(postcss@8.4.38)
+        version: 2.52.0(autoprefixer@10.4.19(postcss@8.4.38))(postcss@8.4.38)
       less:
         specifier: ^4.2.0
         version: 4.2.0
@@ -654,8 +654,8 @@ packages:
   '@types/nlcst@1.0.4':
     resolution: {integrity: sha512-ABoYdNQ/kBSsLvZAekMhIPMQ3YUZvavStpKYs7BjLLuKVmIMA0LUgZ7b54zzuWJRbHF80v1cNf4r90Vd6eMQDg==}
 
-  '@types/node@18.19.26':
-    resolution: {integrity: sha512-+wiMJsIwLOYCvUqSdKTrfkS8mpTp+MPINe6+Np4TAGFWWRWiBQ5kSq9nZGCSPkzx9mvT+uEukzpX4MOSCydcvw==}
+  '@types/node@22.5.4':
+    resolution: {integrity: sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==}
 
   '@types/parse5@6.0.3':
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -2396,8 +2396,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   undici@5.28.3:
     resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
@@ -2642,15 +2642,16 @@ snapshots:
 
   '@astrojs/compiler@1.8.2': {}
 
-  '@astrojs/image@0.18.0(astro@2.10.15)(sharp@0.32.6)':
+  '@astrojs/image@0.18.0(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))(sharp@0.32.6)':
     dependencies:
       '@altano/tiny-async-pool': 1.0.3
-      astro: 2.10.15(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
+      astro: 2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
       http-cache-semantics: 4.1.1
       image-size: 1.1.1
       kleur: 4.1.5
       magic-string: 0.30.8
       mime: 3.0.0
+    optionalDependencies:
       sharp: 0.32.6
 
   '@astrojs/internal-helpers@0.1.2': {}
@@ -2673,10 +2674,10 @@ snapshots:
 
   '@astrojs/markdown-component@1.0.5': {}
 
-  '@astrojs/markdown-remark@2.2.1(astro@2.10.15)':
+  '@astrojs/markdown-remark@2.2.1(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))':
     dependencies:
       '@astrojs/prism': 2.1.2
-      astro: 2.10.15(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
+      astro: 2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -2696,10 +2697,10 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@3.1.3(astro@2.10.15)(tailwindcss@3.4.2)':
+  '@astrojs/tailwind@3.1.3(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))(tailwindcss@3.4.2)':
     dependencies:
       '@proload/core': 0.3.3
-      astro: 2.10.15(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
+      astro: 2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -3225,9 +3226,9 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@18.19.26':
+  '@types/node@22.5.4':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.8
 
   '@types/parse5@6.0.3': {}
 
@@ -3305,12 +3306,12 @@ snapshots:
       resolve-pkg: 2.0.0
       svgo: 2.8.0
 
-  astro@2.10.15(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6):
+  astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6):
     dependencies:
       '@astrojs/compiler': 1.8.2
       '@astrojs/internal-helpers': 0.1.2
       '@astrojs/language-server': 1.0.8
-      '@astrojs/markdown-remark': 2.2.1(astro@2.10.15)
+      '@astrojs/markdown-remark': 2.2.1(astro@2.10.15(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)(sharp@0.32.6))
       '@astrojs/telemetry': 2.1.1
       '@astrojs/webapi': 2.2.0
       '@babel/core': 7.24.3
@@ -3353,7 +3354,6 @@ snapshots:
       rehype: 12.0.1
       semver: 7.6.0
       server-destroy: 1.0.1
-      sharp: 0.32.6
       shiki: 0.14.7
       string-width: 5.1.2
       strip-ansi: 7.1.0
@@ -3361,11 +3361,13 @@ snapshots:
       typescript: 5.4.3
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.5.3(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)
-      vitefu: 0.2.5(vite@4.5.3)
+      vite: 4.5.3(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)
+      vitefu: 0.2.5(vite@4.5.3(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
+    optionalDependencies:
+      sharp: 0.32.6
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3608,7 +3610,7 @@ snapshots:
     dependencies:
       css-tree: 1.1.3
 
-  daisyui@2.52.0(autoprefixer@10.4.19)(postcss@8.4.38):
+  daisyui@2.52.0(autoprefixer@10.4.19(postcss@8.4.38))(postcss@8.4.38):
     dependencies:
       autoprefixer: 10.4.19(postcss@8.4.38)
       color: 4.2.3
@@ -4707,8 +4709,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.38):
     dependencies:
       lilconfig: 3.1.1
-      postcss: 8.4.38
       yaml: 2.4.1
+    optionalDependencies:
+      postcss: 8.4.38
 
   postcss-nested@6.0.1(postcss@8.4.38):
     dependencies:
@@ -5303,7 +5306,7 @@ snapshots:
 
   typescript@5.4.3: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.19.8: {}
 
   undici@5.28.3:
     dependencies:
@@ -5406,20 +5409,20 @@ snapshots:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  vite@4.5.3(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0):
+  vite@4.5.3(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0):
     dependencies:
-      '@types/node': 18.19.26
       esbuild: 0.18.20
-      less: 4.2.0
       postcss: 8.4.38
       rollup: 3.29.4
-      sass: 1.72.0
     optionalDependencies:
+      '@types/node': 22.5.4
       fsevents: 2.3.3
+      less: 4.2.0
+      sass: 1.72.0
 
-  vitefu@0.2.5(vite@4.5.3):
-    dependencies:
-      vite: 4.5.3(@types/node@18.19.26)(less@4.2.0)(sass@1.72.0)
+  vitefu@0.2.5(vite@4.5.3(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)):
+    optionalDependencies:
+      vite: 4.5.3(@types/node@22.5.4)(less@4.2.0)(sass@1.72.0)
 
   vscode-css-languageservice@6.2.13:
     dependencies:
