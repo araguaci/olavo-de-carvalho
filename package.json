@@ -30,7 +30,7 @@
   "dependencies": {
     "@astrojs/image": "^0.18.0",
     "@astrojs/markdown-component": "^1.0.5",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.15",
     "astro-icon": "^0.8.1",
     "sharp": "^0.32.6",
     "tailwindcss-triangle-after": "^1.2.0",
